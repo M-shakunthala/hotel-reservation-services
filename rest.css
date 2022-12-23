@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+    color: rgba(255, 215, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+   
+    
+}
+
+.navbar{
+    
+    overflow: hidden;
+    padding-bottom: 20px;
+
+}
+.navbar a.logo{
+    float:left;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    color: rgba(255, 215, 0);
+    text-decoration: none;
+    
+}
+.navbar a{
+    float:right;
+    padding: 10px 20px 10px;
+    font-size:large;
+    text-align: center;
+    color: rgba(255, 215, 0);
+    text-decoration: none;
+    
+    
+}
+.navbar a:hover{
+    color:rgb(255, 243, 172);
+}
+
+.gallery{
+    max-width:3000px;
+    position: relative;
+   margin-left: 250px;
+}
+
+.images{
+    display: none;
+    display: inline;
+    height: 500px;
+    width:1000px;
+    
+   
+}
+.gallery img{
+    vertical-align: middle;
+        width:  500%;
+        height: 500px;
+        border-radius:50px;
+    }
+
+
+.cuisines br{
+   text-indent: 100px;
+   padding-bottom: 50px;
+   line-height: 1.8;
+}
+
+.btn{
+    background-color: rgba(255, 215, 0);
+    color:black;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    padding: 20px;
+    
+}
+.btn1{
+    margin-bottom: 10px;
+}
+
+.aboutus{
+    
+    
+    
+    font-size: medium;
+    color:rgba(255, 246, 197, 0.944);
+    text-align-last: right;
+    background-color: rgba(138, 122, 122, 0.273);
+    border: 10px;
+}
+.aboutus h3{
+    text-align-last: center;
+    
+}
+.footer{
+    text-indent: 10px;
+    text-align-last: left;
+    background-color: rgba(138, 122, 122, 0.273);
+    color:rgba(255, 246, 197, 0.944);
+}
+
+
+.cuisines img{
+    background-color:rgba(255, 246, 197, 0.944) ;
+    height: 100px;
+    width:100px;
+    
+    padding:10px;
+   
+}
+

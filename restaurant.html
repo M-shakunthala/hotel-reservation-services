@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="rest.css">
+   
+<body>
+    <div class="navbar">
+       
+            <a href="#" class="logo">Cherry Blossom</a>
+            <a href="#cuisine" >Menu</a>
+            <a href="#aboutus">About</a>
+            <a href="#">Home</a>
+    </div>
+    <div class="gallery">
+        <div class="images fade">
+            <img src="image1.jpg"style="width:100%">
+            </div>
+            <div class="images fade">
+            <img src="image2.jpg"style="width:100%">
+            </div>
+            <div class="images fade">
+            <img src="image3.jpg"style="width:100%">
+            </div>
+            <div class="images fade">
+            <img src="image4.jpg"style="width:100%">
+        </div>
+    </div>
+    <br>
+    <div class="aboutus" id="aboutus">
+        <h3><center>About us</center></h3>
+        <p><i>  Since our modest beginnings in 2005 with a little space in Toronto’s stylish Yorkville locale development has been enlivened with the energy to cook and serve solid, Indian-roused takeout food.</p>
+
+In contrast to other Indian eateries, ‘Cherry Blossom’ was made with the explicit expectation to appear as something else.</p>
+
+We realize numerous individuals love Indian sustenance, yet a large number of them are unconscious of the regularly unfortunate fixings that make run-of-the-mill Indian nourishment taste so great.</p>
+
+Our menu highlights things that utilization the sound and fragrant flavors, however, forgets the stuffing ghee, spread, oil, and overwhelming cream.</p>
+     </i>   
+    </div>  
+    <br>
+    <div class="cuisines" id="cuisine">
+        <center><p class="reserve"><h2>Our cuisines</h2></p><br>
+      <img src="chappati.png"><figcaption>Indian</figcaption><br>
+      <img src="noodles.png"><figcaption>Chinese</figcaption><br>
+      <img src="pizza-food-icon.png"><figcaption>Italian</figcaption>
+        </center>
+    </div>
+    <br>
+    <div class="btn1">
+        <center><button class="btn"><center>Book your table</center></button></center>
+    </div>
+    <div class="footer">
+        <p>Contact Us</p>
+        cherryblossoms@gmail.com<br>
+        (857)400 330
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+ 
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("images");
+  
+        for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1} 
+               x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+ 
+   </script>
+</body>
+</html>
